@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+	list-style: none;
+}
+
+#logo {
+	float: left;
+}
+
+#board {
+	width: 120px;
+	float: left;
+}
+
+#search {
+	float: left;
+}
+
+#login {
+	float: right;
+}
+
+#clearfix {
+	clear: both;
+	content: "";
+	display: block;
+}
+#copyright {
+	width:100%;
+	background: black;
+	height: 50px;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+	margin-top: 100px;
+	bottom: 0;
+}
+
+h5 {
+	text-align: center;
+}
+#popup {
+	width: 300px;
+	height: 500px;
+	background: white;
+	box-shadow: 0 0 5px 5px lightgray;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 10000;
+}
+
+div#popup > div#pHead {
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 80px;
+	text-align: center;
+}
+
+div#popup > div#pBody {
+	padding: 5px;
+	box-sizing: border-box;
+	height: 380px;
+	text-align: center;
+}
+
+div#popup > div#pFoot {
+	height: 40px;
+}
+
+div#popup > div#pFoot > button {
+	float: right;
+	margin-right: 10px;	
+}
+
+.card {
+	cursor:pointer;
+}
+
+
+.card-text {
+	height: 100px;
+	overflow:hidden;
+}
+
+.card-deck .card-img-top {
+	height: 208px;
+}
+
+.card-group .card-img-top {
+	height: 208px;
+}
+
+#myTabContent1 {
+	z-index: 999;
+}
+
+.card-body {
+	padding: 15px;
+}
+
+#totalCate .card-img-top {
+	height: 80px;
+	margin: 0;
+	padding: 0;
+}
+
+th {
+	background: #ccc;
+}
+
+.d-block {
+	width: 400px;
+	height: 400px;
+}
+
